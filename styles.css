@@ -1,20 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 body {
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
+/* HEADER */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    height: 60px;
+    min-height: 60px;
     padding: 0 200px 0 200px;
+    flex-wrap: wrap;
 }
 
 .header-logo {
     color: white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
     flex-shrink: 0;
     margin-right: 10px;
 }
@@ -35,6 +40,7 @@ body {
     padding: 0;
 }
 
+/* HERO PART OF HEADER */
 .hero {
     display: flex;
     background-color: #1f2937;
@@ -53,29 +59,80 @@ body {
     flex-shrink: 0;
     margin-right: 50px;
     align-self: center;
+    font-size: 18px;
 }
 .hero-title {
-    font-weight: bold;
-    font-size: 50px;
+    font-weight: bolder;
+    font-size: 48px;
 }
 
- .hero-img {
+.hero-img {
     flex-grow: 1;
     flex-shrink: 0;
-    background-color: grey;
     width: 300px;
     height: auto;
     max-width: 800px;
     align-self: center;
  }
 
- .hero-button {
+.hero-button {
     max-width: 100px;
     min-height: 30px;
+    border: 2px solid;
     border-radius: 8px;
-    border-style: dashed;
     border-color: #3882f6;
     background-color: #3882f6;
     color: white;
     margin: 10px 0 10px 0
  }
+
+ /* INFO PART */
+.info {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    background-color: white;
+    padding: 0 200px 0 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.photos-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.photos {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-text {
+    max-width: 200px;
+}
+
+.photo {
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    min-width: 100px;
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: #3882f6;
+
+}
+
+/* QUOTE PART */
+.quote {
+    
+}

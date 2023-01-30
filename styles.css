@@ -5,7 +5,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-/* HEADER */
+/* HEADER IMPORTANT !!!! CHANGE FLEX ON RIGHT SIDE*/ 
 .header {
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,6 @@ body {
     display: flex;
     list-style-type: none;
     gap: 10px;
-   /* margin: 0 10px 0 auto;  S     /*????????????*/
     padding: 0;
     flex-shrink: 0;
 }
@@ -134,5 +133,26 @@ body {
 
 /* QUOTE PART */
 .quote {
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    background-color: #e5e7eb;
+    padding: 0 200px 0 200px;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.quote-words {
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 36px;
+    max-width: 800px;
+    min-width: 500px;
+}
+
+.quote-author {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
 }

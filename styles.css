@@ -5,15 +5,16 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-/* HEADER */ 
+/* HEADER  FIX WRAP */ 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     min-height: 60px;
     padding: 0 200px 0 200px;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .header-logo {
@@ -21,7 +22,6 @@ body {
     font-weight: bold;
     font-size: 24px;
     flex-shrink: 0;
-    margin-right: 10px;
 }
 
 .header-ul {
@@ -30,7 +30,6 @@ body {
     gap: 10px;
     padding: 0;
     flex-shrink: 0;
-    margin-left: auto;
 }
 
 .header-li {
@@ -45,10 +44,11 @@ body {
     display: flex;
     background-color: #1f2937;
     min-height: 500px;
-    padding: 0 200px 0 200px;
+    padding: 20px 200px 20px 200px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .hero-text {
@@ -59,7 +59,7 @@ body {
     flex-shrink: 0;
     align-self: center;
     font-size: 18px;
-    margin: 0 auto 0 auto;
+
 }
 .hero-title {
     font-weight: bolder;
@@ -92,44 +92,51 @@ body {
     flex-direction: column;
     min-height: 500px;
     background-color: white;
-    padding: 0 200px 0 200px;
+    padding: 0 100px 0 100px;
     align-items: center;
     justify-content: center;
 }
 
 .photos-title {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px 0 50px 0;
     font-weight: bold;
     font-size: 36px;
+    min-width: 400px;
 }
 
 .photos {
     display: flex;
-    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.photo-container-big {
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .photo-container {
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .photo-text {
-    max-width: 200px;
+    max-width: 250px;
+    min-width: 125px;
 }
 
 .photo {
-    flex-grow: 1;
-    flex-shrink: 0;
-    width: 100%;
-    height: auto;
-    max-width: 200px;
-    min-width: 100px;
+    max-width: 250px;
     border-radius: 8px;
     border: 3px solid;
     border-color: #3882f6;
-
+    width: 100%;
+    height: auto;
 }
 
 /* QUOTE PART */

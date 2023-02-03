@@ -25,7 +25,6 @@
 
 
 ## Features
-List the ready features here:
 - Full scalability on PC
 
 ## Screenshots

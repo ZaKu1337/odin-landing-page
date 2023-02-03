@@ -5,10 +5,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-/* HEADER  FIX WRAP */ 
+/* HEADER */ 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #1f2937;
     min-height: 60px;
@@ -22,6 +22,7 @@ body {
     font-weight: bold;
     font-size: 24px;
     flex-shrink: 0;
+    margin-right: auto;
 }
 
 .header-ul {
@@ -90,7 +91,7 @@ body {
 .info {
     display: flex;
     flex-direction: column;
-    min-height: 500px;
+    min-height: 600px;
     background-color: white;
     padding: 0 100px 0 100px;
     align-items: center;
@@ -145,22 +146,90 @@ body {
     flex-direction: column;
     min-height: 500px;
     background-color: #e5e7eb;
-    padding: 0 200px 0 200px;
+    padding: 0 240px 0 240px;
     align-content: space-between;
     justify-content: center;
 }
 
 .quote-words {
-    flex-grow: 0;
-    flex-shrink: 0;
     font-size: 36px;
     max-width: 800px;
-    min-width: 500px;
+    min-width: 450px;
+    align-self: center;
 }
 
 .quote-author {
-    display: flex;
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
+    margin-right: 30%;
+    margin-left: auto;
+    min-width: 145px;
+}
+
+/* BUTTON PART */
+.button {
+    display: flex;
+    min-height: 300px;
+    background-color: white;
+    padding: 0 200px 0 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    background-color: #3882f6;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: #3882f6;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.button-vertical {
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+.button-title {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button-text {
+    font-size: 14px;
+    color: white;
+}
+
+.button-button {
+    background-color: #3882f6;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: white;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    min-width: 100px;
+    margin: 0 10% 0 10%;
+}
+
+/* FOOTER PART */
+.footer {
+    display: flex;
+    min-height: 100px;
+    padding: 0 200px 0 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    min-width: 250px;
+    color: white;
 }

@@ -29,7 +29,7 @@
 - Full scalability on PC
 
 ## Screenshots
-![Example screenshot](/img/Readme/Readme.png)
+![Example screenshot](./img/Readme/Readme.png)
 
 
 ## Setup
@@ -48,7 +48,6 @@ Room for improvement:
 
 To do:
 - Optimize length of the code (CSS)
-- Add "alt" attribute to images
 - Personalize the project
 
 

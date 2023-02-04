@@ -124,6 +124,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 30px;
+    gap: 10px;
 }
 
 .photo-text {
